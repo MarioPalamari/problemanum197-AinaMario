@@ -28,6 +28,7 @@ Este algoritmo transforma de **x** a **x'**
 ![xax1](img/xax1.jpg)
 
 Este algoritmo transforma de **x'** a **x''**
+
 ![x1ax2](img/x1ax2.jpg)
 
 Este algoritmo transforma de **x''** a **x'**
