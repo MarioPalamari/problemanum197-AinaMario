@@ -1,0 +1,129 @@
+/* ESTILOS GENERALES*/
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    h2 {
+        color: #333;
+        font-size: 1.5em;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+/* ESTILO PARA EL H1 */
+    .centered-title {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center; 
+    }
+    
+/* ESTILO DEL CONTENEDOR PRINCIPAL */
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 900px;
+        width: 100%;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        gap: 20px;
+    }
+
+/* ESTILO PARA LAS COLUMNAS */
+    .column {
+        width: 100%;
+        max-width: 400px;
+        padding: 20px;
+        background-color: #fafafa;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin: 10px;
+        flex: 1;
+        padding: 20px;
+        border: 1px solid #ddd;
+    }
+
+    .column h2 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    label {
+        font-weight: bold;
+        margin-bottom: 5px;
+        display: block;
+    }
+
+/* ESTILO PARA LOS INPUTS */
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 1em;
+        margin: 10px 0;
+    }
+
+    input[type="text"]:focus {
+        outline: none;
+        border-color: #5c8aff;
+    }
+
+/* ESTILO PARA LOS BOTONES */
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #5c8aff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #4a72d4;
+    }
+
+/* ESTILO PARA LOS RESULTADOS */
+    .result p {
+        font-size: 1em;
+        margin-bottom: 20px;
+    }
+
+    .result strong {
+        font-weight: bold;
+        color: #555;
+    }
+
+/* RESPONSIVE */
+    @media (max-width: 768px) {
+        .container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .column {
+            max-width: 100%;
+        }
+    }
